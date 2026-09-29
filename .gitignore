@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 node_modules
 dist
 .DS_Store
 *.local
 .vite
 push-to-github.ps1
-=======
-node_modules
-dist
-.DS_Store
-*.local
-.vite
-push-to-github.ps1
->>>>>>> origin/main
