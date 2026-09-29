@@ -2,6 +2,8 @@
 
 经典竖版射击小游戏，基于 Vue 3 + Vite + Canvas。
 
+仓库：https://github.com/xingcegongyue555/-vue3-ts
+
 ## 运行
 
 本机若尚未把 Node 加入系统 PATH，可先执行：
@@ -13,7 +15,6 @@ $env:Path = "C:\Users\Administrator\nodejs;" + $env:Path
 然后：
 
 ```bash
-cd plane-war
 npm install --registry=https://registry.npmmirror.com
 npm run dev -- --host 127.0.0.1 --port 5173
 ```
