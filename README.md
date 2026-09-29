@@ -6,20 +6,13 @@
 
 ## 运行
 
-本机若尚未把 Node 加入系统 PATH，可先执行：
-
 ```powershell
 $env:Path = "C:\Users\Administrator\nodejs;" + $env:Path
-```
-
-然后：
-
-```bash
 npm install --registry=https://registry.npmmirror.com
 npm run dev -- --host 127.0.0.1 --port 5173
 ```
 
-浏览器打开 [http://127.0.0.1:5173/](http://127.0.0.1:5173/) 即可。
+浏览器打开 http://127.0.0.1:5173/
 
 ## 操作
 
@@ -29,8 +22,6 @@ npm run dev -- --host 127.0.0.1 --port 5173
 - **P / Esc**：暂停
 
 ## 道具
-
-击败敌机有概率掉落：
 
 - **+**：额外生命
 - **II**：双发子弹

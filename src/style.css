@@ -1,0 +1,35 @@
+:root {
+  --sky-top: #0a1628;
+  --sky-mid: #123a5c;
+  --sky-bottom: #1a5f7a;
+  --accent: #ff6b35;
+  --accent-glow: #ff9f1c;
+  --hud: #e8f4ff;
+  --danger: #ff3b5c;
+  --ok: #3ddc97;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #050a12;
+  font-family: 'Noto Sans SC', system-ui, sans-serif;
+  color: var(--hud);
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
